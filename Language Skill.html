@@ -264,92 +264,163 @@
 		<div class="page-content col-md-8">
 
 			<div class="row">
-				<div class="col-xl-7 mx-auto">
+				<div class="col-xl-6 mx-auto">
+					
 
-					<div class="card ">
-						<div class="card-body p-5">
-							<div class="card-title  align-items-center">
+					<div class="card">
+						<div  class="card-body">
+							<div class="card-title ">
 
-								<h4 class="mb-4 text-dark text-center text-decoration-underline">Language Information
-								</h4>
-								<h6 class="mb-0 text-dark">
-									Search by Gradation No.:</h6>
+								<h4 class="mb-4 text-dark text-center text-decoration-underline ">Language Information:</h4>
+
 							</div>
-							<hr>
 
-							<form class="row g-3 ">
+							<form class="row  g-3">
 
-								<div class="col-md-12">
-									<label for="inputClass" class="form-label">Enter Gradation No.: </label>
-									<input type="text" name="txtSearchGradation" size="15" maxlength="16" value="">
-									<button type="submit" class="btn btn-success px-2 py-0 ">GO</button>
+								<div class="col-md-12 d-flex  align-items-center justify-content-center ">
+									<label for="inputClass" class="form-label mx-2">Search by Gradation No.: </label>
+									<input style="width: 150px;" class="form-control" type="text" name="txtSearchGradation" maxlength="16" value="">
+									<button type="submit" class="btn btn-success mx-2   px-2 py-0 ">GO</button>
 								</div>
-
 
 
 							</form>
+
+						</div>
+
+
+					</div>
+					<div class="card">
+						<div class="card-body ">
+							<table class="table table-bordered">
+								<thead>
+									<tr class="table-secondary">
+
+										<td style="width: 200px;">Language</td>
+										<td scope="col">Read</td>
+										<td scope="col">Write</td>
+										<td scope="col">Speak</td>
+										<td scope="col"></td>
+									</tr>
+								</thead>
+								<tbody>
+
+								<tr>
+										<td>Bangla</td>
+										<td>yes</td>
+										<td>yes</td>
+										<td>yes</td>																				
+										<td class="text-center"><button type="submit" class="btn btn-outline-success  py-0 ">Edit</button>
+										</td>
+									</tr>
+								<tr>
+										<td>English</td>
+										<td>yes</td>
+										<td>yes</td>
+										<td>yes</td>																				
+										<td class="text-center"><button type="submit" class="btn btn-outline-success  py-0 ">Edit</button>
+										</td>
+									</tr>
+						
+
+								</tbody>
+							</table>
+
+						</div>
+
+
+					</div>
+					<div class="card">
+						<div class="card-body ">
+							<div class="card-title ">
+
+								<h5 class=" text-dark text-center ">Add Language Skill</h5>
+								<hr>
+
+							</div>
+							<form action="">
+								<table class="table">
+								<tbody>
+									<tr>
+									<td scope="col">Language</td>
+										<td scope="col">Read</td>
+										<td scope="col">Write</td>
+										<td scope="col">Speak</td>
+										<td scope="col"></td>
+								</tr>
+								<tr>
+									<td>
+										<select  class="form-select" aria-label="Default select example" style="width:145px">
+															<option value="1">Bangla</option>
+															<option value="2">English</option>
+															<option value="3">Arabic</option>
+															<option value="4">Hindi</option>
+															<option value="5">Urdu</option>
+															<option value="6">Russian</option>
+														</select>
+									</td>
+									<td ><input type="checkbox" name="chkRead"></td>
+									<td ><input type="checkbox" name="chkWrite"></td>
+									<td ><input type="checkbox" name="chkSpeak"></td>
+									<td><button type="submit" class="btn btn-success  py-0 ">Add</button>
+									</td>
+								</tr>
+							</tbody></table>
+						</form>
+
+						</div>
+
+
+					</div>
+
+				
+					
+				
+					<div class="card">
+						<div class="card-body ">
+							<div class="card-title ">
+
+								<h5 class=" text-dark text-center ">Edit Language Skill</h5>
+								<hr>
+
+							</div>
+							<form action="">
+								<table class="table">
+								<tbody>
+									<tr>
+									<td scope="col">Language</td>
+										<td scope="col">Read</td>
+										<td scope="col">Write</td>
+										<td scope="col">Speak</td>
+										<td scope="col"></td>
+								</tr>
+								<tr>
+									<td>
+										<select  class="form-select" aria-label="Default select example" style="width:145px">
+															<option value="1">Bangla</option>
+															<option value="2">English</option>
+															<option value="3">Arabic</option>
+															<option value="4">Hindi</option>
+															<option value="5">Urdu</option>
+															<option value="6">Russian</option>
+														</select>
+									</td>
+									<td ><input type="checkbox" name="chkRead"></td>
+									<td ><input type="checkbox" name="chkWrite"></td>
+									<td ><input type="checkbox" name="chkSpeak"></td>
+									<td><button type="submit" class="btn btn-success  py-0 ">Edit</button>
+									</td>
+								</tr>
+							</tbody></table>
+						</form>
+
 						</div>
 					</div>
-					<div class="card ">
-						<div class="card-body p-4  d-flex justify-content-center">
-
-
-							<form class="row g-3 ">
-
-								<div class="col-md-4 ">
-									<label for="inputClass" class="form-label">Language</label>
-									<select class="form-select" aria-label="Default select example" style="width:145px">
-										<option value="1">Bangla</option>
-										<option value="2">English</option>
-										<option value="3">Arabic</option>
-										<option value="4">Hindi</option>
-										<option value="5">Urdu</option>
-										<option value="6">Russian</option>
-									</select>
-									
-
-
-								</div>
-								<div class="col-md-1 text-center mx-2 ">
-									<label for="inputClass" class="form-label">Read</label>
-									<input type="checkbox" name="Read">
-
-									
-
-
-								</div>
-								<div class="col-md-1 text-center mx-2 ">
-									<label for="inputClass" class="form-label">Write</label>
-									<input type="checkbox" name="Write">
-							
-
-
-								</div>
-								<div class="col-md-1 text-center mx-2 ">
-									<label for="inputClass" class="form-label">Speak</label>
-									<input type="checkbox" name="Speak">
-									
-
-								</div>
-							<div class="col-md-2 ps-3 pt-4 text-center ">
-									<button type="submit" class="btn btn-success px-2 py-0 ">Add</button>
-
-
-								</div>
-
-
-
-
-							</form>
-						</div>
-					</div>
-
 
 				</div>
 			</div>
 
 		</div>
-
 		<!--end page wrapper -->
 		<!--start overlay-->
 		<div class="overlay toggle-icon"></div>
