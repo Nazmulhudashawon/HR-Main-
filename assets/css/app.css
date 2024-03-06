@@ -2,9 +2,9 @@
 
 body {
 	font-size: 14px;
-	color: #4c5258;
+	color: black;
 	letter-spacing: .5px;
-	background-color: #f4f4f4;
+	background-color: #ffffff;
 	overflow-x: hidden;
 	font-family: Roboto, sans-serif
 }
@@ -40,7 +40,7 @@ h4, h5{
 
 .sidebar-wrapper {
 	width: 250px;
-	height: 1000px;
+	height: 1500px;
 	position: sticky;	
 	bottom: 0;
 	left: 0;
