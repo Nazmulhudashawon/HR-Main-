@@ -773,7 +773,7 @@ var Lobibox = Lobibox || {};
             var d = $('<div></div>');
             if (me.$options.iconClass) {
                 d.append($('<div class="lobibox-icon-wrapper"></div>')
-                    .append('<i class="lobibox-icon ' + me.$options.iconClass + '"></i>'))
+                    .append('<i class="lobibox-icon ' + me.$options.iconClass + '">'))
                 ;
             }
             d.append('<div class="lobibox-body-text-wrapper"><span class="lobibox-body-text">' + me.$options.msg + '</span></div>');
@@ -832,7 +832,7 @@ var Lobibox = Lobibox || {};
             var d = $('<div></div>');
             if (me.$options.iconClass) {
                 d.append($('<div class="lobibox-icon-wrapper"></div>')
-                    .append('<i class="lobibox-icon ' + me.$options.iconClass + '"></i>'))
+                    .append('<i class="lobibox-icon ' + me.$options.iconClass + '">'))
                 ;
             }
             d.append('<div class="lobibox-body-text-wrapper"><span class="lobibox-body-text">' + me.$options.msg + '</span></div>');

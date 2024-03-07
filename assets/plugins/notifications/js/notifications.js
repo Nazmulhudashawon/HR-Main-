@@ -94,7 +94,7 @@ var Lobibox = Lobibox || {};
             });
             $('<a></a>', {
                 'href': '#' + tabPaneId
-            }).append('<i class="tab-control-icon ' + me.$options.icon + '"></i>')
+            }).append('<i class="tab-control-icon ' + me.$options.icon + '">')
                 .appendTo($li);
             return $li;
         };
@@ -141,7 +141,7 @@ var Lobibox = Lobibox || {};
             if (me.$options.img) {
                 $innerIconEl.append('<img src="' + me.$options.img + '"/>');
             } else if (me.$options.icon) {
-                $innerIconEl.append('<div class="icon-el"><i class="' + me.$options.icon + '"></i></div>');
+                $innerIconEl.append('<div class="icon-el"><i class="' + me.$options.icon + '"></div>');
             } else {
                 $notify.addClass('without-icon');
             }

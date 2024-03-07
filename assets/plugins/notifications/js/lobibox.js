@@ -773,7 +773,7 @@ var Lobibox = Lobibox || {};
             var d = $('<div></div>');
             if (me.$options.iconClass) {
                 d.append($('<div class="lobibox-icon-wrapper"></div>')
-                    .append('<i class="lobibox-icon ' + me.$options.iconClass + '"></i>'))
+                    .append('<i class="lobibox-icon ' + me.$options.iconClass + '">'))
                 ;
             }
             d.append('<div class="lobibox-body-text-wrapper"><span class="lobibox-body-text">' + me.$options.msg + '</span></div>');
@@ -832,7 +832,7 @@ var Lobibox = Lobibox || {};
             var d = $('<div></div>');
             if (me.$options.iconClass) {
                 d.append($('<div class="lobibox-icon-wrapper"></div>')
-                    .append('<i class="lobibox-icon ' + me.$options.iconClass + '"></i>'))
+                    .append('<i class="lobibox-icon ' + me.$options.iconClass + '">'))
                 ;
             }
             d.append('<div class="lobibox-body-text-wrapper"><span class="lobibox-body-text">' + me.$options.msg + '</span></div>');
@@ -1231,7 +1231,7 @@ var Lobibox = Lobibox || {};
             });
             $('<a></a>', {
                 'href': '#' + tabPaneId
-            }).append('<i class="tab-control-icon ' + me.$options.icon + '"></i>')
+            }).append('<i class="tab-control-icon ' + me.$options.icon + '">')
                 .appendTo($li);
             return $li;
         };
@@ -1278,7 +1278,7 @@ var Lobibox = Lobibox || {};
             if (me.$options.img) {
                 $innerIconEl.append('<img src="' + me.$options.img + '"/>');
             } else if (me.$options.icon) {
-                $innerIconEl.append('<div class="icon-el"><i class="' + me.$options.icon + '"></i></div>');
+                $innerIconEl.append('<div class="icon-el"><i class="' + me.$options.icon + '"></div>');
             } else {
                 $notify.addClass('without-icon');
             }
