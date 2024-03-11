@@ -169,7 +169,10 @@
                 >
                   <div class="accordion-body">
                     <ul>
-                      <li><a href="Add New Employee.html">Add New Employee</a></li>
+                      <li>
+                        <a href="Add New Employee.html">Add New Employee</a>
+                      </li>
+                      <li>
                         <a href="Personal Info.html">Personal Information</a>
                       </li>
                       <li><a href="Spouse Info.html">Spouse Info.</a></li>
@@ -183,11 +186,7 @@
                       </li>
                       <li><a href="Training Info.html">Training Info.</a></li>
                       <li><a href="Service Exam.html">Service Exam</a></li>
-                      <li>
-                        <a href="Affiliation.html"
-                          >Affiliations</a
-                        >
-                      </li>
+                      <li><a href="Affiliation.html">Affiliations</a></li>
                       <li><a href="Honours.html">Honours/Award</a></li>
                       <li><a href="Publications.html">Publication</a></li>
                       <li>
@@ -196,8 +195,10 @@
                       <li>
                         <a href="app-emailbox.html">Official Information</a>
                       </li>
-                       <li>
-                        <a href="Promotion Particulars.html">Promotion Particulars</a>
+                      <li>
+                        <a href="Promotion Particulars.html"
+                          >Promotion Particulars</a
+                        >
                       </li>
                       <li>
                         <a href="app-emailbox.html">Disciplinary Actions</a>
@@ -312,14 +313,14 @@
 
       <div class="page-content col-md-8">
         <div class="row">
-          <div class="col-xl-7 mx-auto">
+          <div class="col-xl-8 mx-auto">
             <div class="card">
               <div class="card-body">
                 <div class="card-title align-items-center">
                   <h4
                     class="mb-4 text-dark text-center text-decoration-underline"
                   >
-                    Publications:
+                    Promotion Particulars:
                   </h4>
                 </div>
 
@@ -353,23 +354,26 @@
                 <table class="table table-bordered">
                   <thead>
                     <tr class="table-secondary">
-                     
-                      <td scope="col">Publication Type</td>
-                      <td scope="col">Title</td>
-                      <td scope="col">Document</td>
-                      <td scope="col">Date</td>
-
+                      <td scope="col">Designation</td>
+                      <td scope="col">Nature of Prom</td>
+                      <td scope="col">Memo No.</td>
+                      <td scope="col">Memo Date</td>
+                      <td scope="col">Joining Date</td>
+                      <td scope="col">Pay Scale</td>
+                      <td scope="col">Posting</td>
                       <td scope="col"></td>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Article</td>
-
-                      <td>H R M Practices in Public Works Department (PWD)</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
                       <td></td>
 
-                      <td>18-04-2011</td>
+                      <td></td>
 
                       <td>
                         <button
@@ -387,17 +391,18 @@
             <div class="card">
               <div class="card-body">
                 <div class="card-title">
-                  <h5 class="text-dark text-center">
-                    Enter Publications Info
-                  </h5>
+                  <h5 class="text-dark text-center">Enter Promotion Info</h5>
                   <hr />
                 </div>
                 <form>
                   <div class="row align-items-center g-2">
                     <div class="row">
-                      <div class="col-md-3">
-                        <label for="inputClass" class="col-form-label">
-                          Publication Type</label
+                      <div class="col-md-1">
+                        <label for="inputClass" class="col-form-label"></label>
+                      </div>
+                      <div class="col-md-2">
+                        <label for="inputClass" class="col-form-label"
+                          >Designation</label
                         >
                       </div>
                       <div class="col-md-3">
@@ -408,26 +413,29 @@
                           <option value="1"></option>
                         </select>
                       </div>
-                      <div class="col-md-1">
+                      <div class="col-md-2">
                         <label for="inputClass" class="col-form-label"
-                          >Title</label
+                          >Nature of Prom</label
                         >
                       </div>
-                      <div class="col-md-5">
-                        <input
-                          class="form-control"
-                          type="text"
-                          maxlength="50"
-                          value=""
-                        />
+                      <div class="col-md-3">
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                        >
+                          <option value="1"></option>
+                        </select>
                       </div>
                     </div>
 
                     <div class="row">
-                      <div class="col-md-3">
-                        <label for="inputClass" class="col-form-label">
-                          Document
-                        </label>
+                      <div class="col-md-1">
+                        <label for="inputClass" class="col-form-label"></label>
+                      </div>
+                      <div class="col-md-2">
+                        <label for="inputClass" class="col-form-label"
+                          >Memo No.</label
+                        >
                       </div>
                       <div class="col-md-3">
                         <input
@@ -437,42 +445,88 @@
                           value=""
                         />
                       </div>
-                      <div class="col-md-1">
+                      <div class="col-md-2">
                         <label for="inputClass" class="col-form-label"
-                          >Date</label
+                          >Memo Date</label
                         >
                       </div>
                       <div class="col-md-3">
                         <input class="form-control" type="date" />
                       </div>
-                    
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-1">
+                        <label for="inputClass" class="col-form-label"></label>
+                      </div>
+
+                      <div class="col-md-2">
+                        <label for="inputClass" class="col-form-label"
+                          >Joining Date</label
+                        >
+                      </div>
+                      <div class="col-md-3">
+                        <input class="form-control" type="date" />
+                      </div>
+                      <div class="col-md-2">
+                        <label for="inputClass" class="col-form-label">
+                          Pay Scale
+                        </label>
+                      </div>
+                      <div class="col-md-3">
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                        >
+                          <option value="1"></option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-1">
+                        <label for="inputClass" class="col-form-label"></label>
+                      </div>
+                      <div class="col-md-2">
+                        <label for="inputClass" class="col-form-label">
+                          Posting
+                        </label>
+                      </div>
+                      <div class="col-md-3">
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                        >
+                          <option value="1"></option>
+                        </select>
+                      </div>
                     </div>
 
                     <div class="row"></div>
 
                     <div class="col-md-12 text-center">
-                      <button type="submit" class="btn btn-success py-0">Add</button>
+                      <button type="submit" class="btn btn-success py-0">
+                        Add
+                      </button>
                     </div>
                   </div>
                 </form>
               </div>
             </div>
-            
-          
             <div class="card">
               <div class="card-body">
                 <div class="card-title">
-                  <h5 class="text-dark text-center">
-                    Edit Publications Info
-                  </h5>
+                  <h5 class="text-dark text-center">Edit Promotion Info</h5>
                   <hr />
                 </div>
                 <form>
                   <div class="row align-items-center g-2">
                     <div class="row">
-                      <div class="col-md-3">
-                        <label for="inputClass" class="col-form-label">
-                          Publication Type</label
+                      <div class="col-md-1">
+                        <label for="inputClass" class="col-form-label"></label>
+                      </div>
+                      <div class="col-md-2">
+                        <label for="inputClass" class="col-form-label"
+                          >Designation</label
                         >
                       </div>
                       <div class="col-md-3">
@@ -483,26 +537,29 @@
                           <option value="1"></option>
                         </select>
                       </div>
-                      <div class="col-md-1">
+                      <div class="col-md-2">
                         <label for="inputClass" class="col-form-label"
-                          >Title</label
+                          >Nature of Prom</label
                         >
                       </div>
-                      <div class="col-md-5">
-                        <input
-                          class="form-control"
-                          type="text"
-                          maxlength="50"
-                          value=""
-                        />
+                      <div class="col-md-3">
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                        >
+                          <option value="1"></option>
+                        </select>
                       </div>
                     </div>
 
                     <div class="row">
-                      <div class="col-md-3">
-                        <label for="inputClass" class="col-form-label">
-                          Document
-                        </label>
+                      <div class="col-md-1">
+                        <label for="inputClass" class="col-form-label"></label>
+                      </div>
+                      <div class="col-md-2">
+                        <label for="inputClass" class="col-form-label"
+                          >Memo No.</label
+                        >
                       </div>
                       <div class="col-md-3">
                         <input
@@ -512,27 +569,73 @@
                           value=""
                         />
                       </div>
-                      <div class="col-md-1">
+                      <div class="col-md-2">
                         <label for="inputClass" class="col-form-label"
-                          >Date</label
+                          >Memo Date</label
                         >
                       </div>
                       <div class="col-md-3">
                         <input class="form-control" type="date" />
                       </div>
-                    
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-1">
+                        <label for="inputClass" class="col-form-label"></label>
+                      </div>
+
+                      <div class="col-md-2">
+                        <label for="inputClass" class="col-form-label"
+                          >Joining Date</label
+                        >
+                      </div>
+                      <div class="col-md-3">
+                        <input class="form-control" type="date" />
+                      </div>
+                      <div class="col-md-2">
+                        <label for="inputClass" class="col-form-label">
+                          Pay Scale
+                        </label>
+                      </div>
+                      <div class="col-md-3">
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                        >
+                          <option value="1"></option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-1">
+                        <label for="inputClass" class="col-form-label"></label>
+                      </div>
+                      <div class="col-md-2">
+                        <label for="inputClass" class="col-form-label">
+                          Posting
+                        </label>
+                      </div>
+                      <div class="col-md-3">
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                        >
+                          <option value="1"></option>
+                        </select>
+                      </div>
                     </div>
 
                     <div class="row"></div>
 
                     <div class="col-md-12 text-center">
-                      <button type="submit" class="btn btn-success py-0">Edit</button>
+                      <button type="submit" class="btn btn-success py-0">
+                        Edit
+                      </button>
                     </div>
                   </div>
                 </form>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
