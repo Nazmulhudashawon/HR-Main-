@@ -201,10 +201,12 @@
                         >
                       </li>
                       <li>
-                        <a href="Displinary Action.html">Disciplinary Actions</a>
+                        <a href="Displinary Action.html"
+                          >Disciplinary Actions</a
+                        >
                       </li>
                       <li><a href="app-emailbox.html">ACR History</a></li>
-                     <li><a href="Leave History.html">leave History</a></li>
+                      <li><a href="Leave History.html">leave History</a></li>
                       <li><a href="app-emailbox.html">Posting</a></li>
                       <li><a href="app-emailbox.html">Lien Info.</a></li>
                       <li><a href="app-emailbox.html">Job Status</a></li>
@@ -313,14 +315,14 @@
 
       <div class="page-content col-md-8">
         <div class="row">
-          <div class="col-xl-8 mx-auto">
+          <div class="col-xl-6 mx-auto">
             <div class="card">
               <div class="card-body">
                 <div class="card-title align-items-center">
                   <h4
                     class="mb-4 text-dark text-center text-decoration-underline"
                   >
-                    Promotion Particulars:
+                    Leave Information:
                   </h4>
                 </div>
 
@@ -354,13 +356,12 @@
                 <table class="table table-bordered">
                   <thead>
                     <tr class="table-secondary">
-                      <td scope="col">Designation</td>
-                      <td scope="col">Nature of Prom</td>
-                      <td scope="col">Memo No.</td>
-                      <td scope="col">Memo Date</td>
-                      <td scope="col">Joining Date</td>
-                      <td scope="col">Pay Scale</td>
-                      <td scope="col">Posting</td>
+                      <td scope="col">Leave Type</td>
+                      <td scope="col">From</td>
+                      <td scope="col">To</td>
+
+                      <td scope="col">Remarks</td>
+
                       <td scope="col"></td>
                     </tr>
                   </thead>
@@ -368,9 +369,7 @@
                     <tr>
                       <td></td>
                       <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
+
                       <td></td>
 
                       <td></td>
@@ -388,24 +387,22 @@
                 </table>
               </div>
             </div>
+
             <div class="card">
               <div class="card-body">
                 <div class="card-title">
-                  <h5 class="text-dark text-center">Enter Promotion Info</h5>
+                  <h5 class="text-dark text-center">Enter leave Info</h5>
                   <hr />
                 </div>
                 <form>
                   <div class="row align-items-center g-2">
                     <div class="row">
-                      <div class="col-md-1">
-                        <label for="inputClass" class="col-form-label"></label>
-                      </div>
-                      <div class="col-md-2">
+                      <div class="col-md-2 pe-0">
                         <label for="inputClass" class="col-form-label"
-                          >Designation</label
+                          >Leave Type</label
                         >
                       </div>
-                      <div class="col-md-3">
+                      <div class="col-md-4">
                         <select
                           class="form-select"
                           aria-label="Default select example"
@@ -413,91 +410,36 @@
                           <option value="1"></option>
                         </select>
                       </div>
-                      <div class="col-md-2">
+                      <div class="col-md-2 pe-0">
                         <label for="inputClass" class="col-form-label"
-                          >Nature of Prom</label
+                          >From</label
                         >
                       </div>
-                      <div class="col-md-3">
-                        <select
-                          class="form-select"
-                          aria-label="Default select example"
-                        >
-                          <option value="1"></option>
-                        </select>
+                      <div class="col-md-4 px-0">
+                        <input class="form-control" type="date" />
                       </div>
                     </div>
 
                     <div class="row">
-                      <div class="col-md-1">
-                        <label for="inputClass" class="col-form-label"></label>
-                      </div>
-                      <div class="col-md-2">
+                      <div class="col-md-2 pe-0">
                         <label for="inputClass" class="col-form-label"
-                          >Memo No.</label
-                        >
+                          >To
+                        </label>
                       </div>
-                      <div class="col-md-3">
-                        <input
+                      <div class="col-md-4">
+                        <input class="form-control" type="date" />
+                      </div>
+                      <div class="col-md-2 pe-0">
+                        <label for="inputClass" class="col-form-label">
+                          Remarks
+                        </label>
+                      </div>
+                      <div class="col-md-4 px-0">
+                        <textarea
                           class="form-control"
-                          type="text"
-                          maxlength="50"
-                          value=""
-                        />
-                      </div>
-                      <div class="col-md-2">
-                        <label for="inputClass" class="col-form-label"
-                          >Memo Date</label
-                        >
-                      </div>
-                      <div class="col-md-3">
-                        <input class="form-control" type="date" />
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="col-md-1">
-                        <label for="inputClass" class="col-form-label"></label>
-                      </div>
-
-                      <div class="col-md-2">
-                        <label for="inputClass" class="col-form-label"
-                          >Joining Date</label
-                        >
-                      </div>
-                      <div class="col-md-3">
-                        <input class="form-control" type="date" />
-                      </div>
-                      <div class="col-md-2">
-                        <label for="inputClass" class="col-form-label">
-                          Pay Scale
-                        </label>
-                      </div>
-                      <div class="col-md-3">
-                        <select
-                          class="form-select"
-                          aria-label="Default select example"
-                        >
-                          <option value="1"></option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-1">
-                        <label for="inputClass" class="col-form-label"></label>
-                      </div>
-                      <div class="col-md-2">
-                        <label for="inputClass" class="col-form-label">
-                          Posting
-                        </label>
-                      </div>
-                      <div class="col-md-3">
-                        <select
-                          class="form-select"
-                          aria-label="Default select example"
-                        >
-                          <option value="1"></option>
-                        </select>
+                          id="exampleFormControlTextarea1"
+                          rows="1"
+                        ></textarea>
                       </div>
                     </div>
 
@@ -515,21 +457,18 @@
             <div class="card">
               <div class="card-body">
                 <div class="card-title">
-                  <h5 class="text-dark text-center">Edit Promotion Info</h5>
+                  <h5 class="text-dark text-center">Edit leave Info</h5>
                   <hr />
                 </div>
                 <form>
                   <div class="row align-items-center g-2">
                     <div class="row">
-                      <div class="col-md-1">
-                        <label for="inputClass" class="col-form-label"></label>
-                      </div>
-                      <div class="col-md-2">
+                      <div class="col-md-2 pe-0">
                         <label for="inputClass" class="col-form-label"
-                          >Designation</label
+                          >Leave Type</label
                         >
                       </div>
-                      <div class="col-md-3">
+                      <div class="col-md-4">
                         <select
                           class="form-select"
                           aria-label="Default select example"
@@ -537,100 +476,45 @@
                           <option value="1"></option>
                         </select>
                       </div>
-                      <div class="col-md-2">
+                      <div class="col-md-2 pe-0">
                         <label for="inputClass" class="col-form-label"
-                          >Nature of Prom</label
+                          >From</label
                         >
                       </div>
-                      <div class="col-md-3">
-                        <select
-                          class="form-select"
-                          aria-label="Default select example"
-                        >
-                          <option value="1"></option>
-                        </select>
+                      <div class="col-md-4 px-0">
+                        <input class="form-control" type="date" />
                       </div>
                     </div>
 
                     <div class="row">
-                      <div class="col-md-1">
-                        <label for="inputClass" class="col-form-label"></label>
-                      </div>
-                      <div class="col-md-2">
+                      <div class="col-md-2 pe-0">
                         <label for="inputClass" class="col-form-label"
-                          >Memo No.</label
-                        >
+                          >To
+                        </label>
                       </div>
-                      <div class="col-md-3">
-                        <input
+                      <div class="col-md-4">
+                        <input class="form-control" type="date" />
+                      </div>
+                      <div class="col-md-2 pe-0">
+                        <label for="inputClass" class="col-form-label">
+                          Remarks
+                        </label>
+                      </div>
+                      <div class="col-md-4 px-0">
+                        <textarea
                           class="form-control"
-                          type="text"
-                          maxlength="50"
-                          value=""
-                        />
-                      </div>
-                      <div class="col-md-2">
-                        <label for="inputClass" class="col-form-label"
-                          >Memo Date</label
-                        >
-                      </div>
-                      <div class="col-md-3">
-                        <input class="form-control" type="date" />
+                          id="exampleFormControlTextarea1"
+                          rows="1"
+                        ></textarea>
                       </div>
                     </div>
 
-                    <div class="row">
-                      <div class="col-md-1">
-                        <label for="inputClass" class="col-form-label"></label>
-                      </div>
+                    <div class="row"></div>
 
-                      <div class="col-md-2">
-                        <label for="inputClass" class="col-form-label"
-                          >Joining Date</label
-                        >
-                      </div>
-                      <div class="col-md-3">
-                        <input class="form-control" type="date" />
-                      </div>
-                      <div class="col-md-2">
-                        <label for="inputClass" class="col-form-label">
-                          Pay Scale
-                        </label>
-                      </div>
-                      <div class="col-md-3">
-                        <select
-                          class="form-select"
-                          aria-label="Default select example"
-                        >
-                          <option value="1"></option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-1">
-                        <label for="inputClass" class="col-form-label"></label>
-                      </div>
-                      <div class="col-md-2">
-                        <label for="inputClass" class="col-form-label">
-                          Posting
-                        </label>
-                      </div>
-                      <div class="col-md-3">
-                        <select
-                          class="form-select"
-                          aria-label="Default select example"
-                        >
-                          <option value="1"></option>
-                        </select>
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="col-md-12 text-center">
-                        <button type="submit" class="btn btn-success py-0">
-                          Edit
-                        </button>
-                      </div>
+                    <div class="col-md-12 text-center">
+                      <button type="submit" class="btn btn-success py-0">
+                        Edit
+                      </button>
                     </div>
                   </div>
                 </form>
