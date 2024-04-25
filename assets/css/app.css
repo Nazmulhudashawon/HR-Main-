@@ -201,6 +201,14 @@ h4, h5{
 	top: 50%;
 	transition: all .3s ease-out
 }
+@media only screen and (max-width: 600px) {
+	.img{
+		display: flex;
+		align-items: center;
+		justify-content: start;
+		
+	}
+  }
 
 @media screen and (min-width:1025px) {
 	.wrapper.toggled:not(.sidebar-hovered) .sidebar-wrapper .sidebar-header .logo-text {
